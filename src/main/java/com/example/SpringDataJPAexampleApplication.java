@@ -21,11 +21,11 @@ public class SpringDataJPAexampleApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        repository.save(new Expense("breakfast", 5));
-        repository.save(new Expense("coffee", 2));
-        repository.save(new Expense("New SSD drive", 200));
-        repository.save(new Expense("Tution for baby", 350));
-        repository.save(new Expense("Some apples", 5));
+//        repository.save(new Expense("breakfast", 5));
+//        repository.save(new Expense("coffee", 2));
+//        repository.save(new Expense("New SSD drive", 200));
+//        repository.save(new Expense("Tution for baby", 350));
+//        repository.save(new Expense("Some apples", 5));
 
         Iterable<Expense> iterator = repository.findAll();
 
