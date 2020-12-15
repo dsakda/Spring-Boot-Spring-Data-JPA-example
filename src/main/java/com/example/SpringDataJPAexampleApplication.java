@@ -12,7 +12,6 @@ import java.util.List;
 @SpringBootApplication
 public class SpringDataJPAexampleApplication implements CommandLineRunner {
 
-
     private ExpenseRepository repository;
 
     @Autowired
