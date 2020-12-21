@@ -12,12 +12,8 @@ import java.util.List;
 @SpringBootApplication
 public class SpringDataJPAexampleApplication implements CommandLineRunner {
 
-    private ExpenseRepository repository;
-
     @Autowired
-    public SpringDataJPAexampleApplication(ExpenseRepository repository) {
-        this.repository = repository;
-    }
+    private ExpenseRepository repository;
 
     public static void main(String[] args) {
         SpringApplication.run(SpringDataJPAexampleApplication.class, args);
